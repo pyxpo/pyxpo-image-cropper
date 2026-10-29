@@ -1,0 +1,11 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android">
+    <application>
+        <!--
+          The cropper screen is an AppCompat activity, but pyxpo apps use a platform theme. Give it an AppCompat theme
+          here, or it crashes on open. The cropper library declares the activity itself; this entry only adds the theme.
+        -->
+        <activity
+            android:name="com.canhub.cropper.CropImageActivity"
+            android:theme="@style/Theme.AppCompat.DayNight.DarkActionBar" />
+    </application>
+</manifest>

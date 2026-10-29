@@ -1,0 +1,26 @@
+{
+  "schemaVersion": 1,
+  "nativeContract": 2,
+  "name": "image-cropper",
+  "native": "ImageCropper",
+  "ios": {
+    "classes": ["ImageCropperModule"],
+    "swiftPackages": [
+      {
+        "name": "TOCropViewController",
+        "url": "https://github.com/TimOliver/TOCropViewController",
+        "version": "3.2.0",
+        "products": ["TOCropViewController"]
+      }
+    ]
+  },
+  "android": {
+    "namespace": "dev.pyxpo.modules.imagecropper",
+    "classes": ["dev.pyxpo.modules.imagecropper.ImageCropperModule"],
+    "dependencies": [
+      "androidx.appcompat:appcompat:1.7.0",
+      "com.vanniktech:android-image-cropper:4.7.0"
+    ],
+    "minSdk": 24
+  }
+}
