@@ -4,6 +4,9 @@
   "name": "image-cropper",
   "native": "ImageCropper",
   "ios": {
+    "privacyManifest": {"NSPrivacyAccessedAPITypes": [
+      {"NSPrivacyAccessedAPIType": "NSPrivacyAccessedAPICategoryFileTimestamp", "NSPrivacyAccessedAPITypeReasons": ["C617.1"]}
+    ]},
     "classes": ["ImageCropperModule"],
     "swiftPackages": [
       {

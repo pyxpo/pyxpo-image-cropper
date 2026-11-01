@@ -12,7 +12,7 @@ from typing import Any, Callable, Dict, Optional, Sequence
 from pyxpo import component, use_imperative_handle, use_ref
 from pyxpo.module_api import NotSupportedError, call, native_view, platform, require_linked, snake_aliases, view_tag
 
-__version__ = "0.1.0a1"
+__version__ = "0.1.0a2"
 
 _FORMATS = {"jpeg": "image/jpeg", "png": "image/png"}
 
